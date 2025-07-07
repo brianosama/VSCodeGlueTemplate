@@ -4,31 +4,31 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}",
-                "${workspaceFolder}/BSP/Include",
-                "${workspaceFolder}/BSP/Include/config",
+                "${workspaceFolder}/DFP/Include",
+                "${workspaceFolder}/DFP/Include/config",
                 "${workspaceFolder}/CMSIS/Include",
-                "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\lib\\gcc\\arm-none-eabi\\5.4.1\\include",
-                "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\lib\\gcc\\arm-none-eabi\\5.4.1\\include-fixed",
-                "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\arm-none-eabi\\include",
-                "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\arm-none-eabi\\include\\c++\\5.4.1"
+                "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\lib\\gcc\\arm-none-eabi\\14.2.1\\include",
+                "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\lib\\gcc\\arm-none-eabi\\14.2.1\\include-fixed",
+                "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\arm-none-eabi\\include",
+                "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\arm-none-eabi\\include\\c++\\14.2.1"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "__GNUC__=6",
-                "__cdecl=__attribute__((__cdecl__))"
+                "__ADUCM3029__",
+                "__CORTEX_M3__"
             ],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "${workspaceFolder}/BSP/Include",
-                    "${workspaceFolder}/BSP/Include/config",
+                    "${workspaceFolder}/DFP/Include",
+                    "${workspaceFolder}/DFP/Include/config",
                     "${workspaceFolder}/CMSIS/Include",
-                    "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\lib\\gcc\\arm-none-eabi\\5.4.1\\include",
-                    "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\lib\\gcc\\arm-none-eabi\\5.4.1\\include-fixed",
-                    "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\arm-none-eabi\\include",
-                    "D:\\ARM\\gcc-arm-none-eabi-5_4-2016q3-20160926-win32\\arm-none-eabi\\include\\c++\\5.4.1"
+                    "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\lib\\gcc\\arm-none-eabi\\14.2.1\\include",
+                    "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\lib\\gcc\\arm-none-eabi\\14.2.1\\include-fixed",
+                    "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\arm-none-eabi\\include",
+                    "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\arm-none-eabi\\include\\c++\\14.2.1"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
@@ -37,5 +37,5 @@
             "cppStandard": "c++17"
         }
     ],
-    "version": 3
+    "version": 4
 }

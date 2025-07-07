@@ -12,24 +12,25 @@ Included in this template is the board support package of ADuCM302x microcontrol
     VSCode file for Intellisense, build settings and debug settings.
 
 # Requirements
-    - cmake or make - via Winget
-    - arm-none-eabi toolchain (14.1) - via Winget
-    - vscode
-    - Cortex-Debug plugin
-    - openocd 0.12
+
+    * cmake or make - via Winget
+    * arm-none-eabi toolchain (14.1) - via Winget
+    * vscode
+    * Cortex-Debug plugin
+    * openocd 0.12
 
 # Release History
 
-2025.07.07: 
-    -DFP 3.2.1 
-    -Updated vscode json files
-    -Move debug tool from cppdebug to cortex-debug
-    -added cmakelists.txt
-    -added syscalls.c for mock implementation of sys functions
+- 2025.07.07: 
+  - DFP 3.2.1 
+  - Updated vscode json files
+  - Move debug tool from cppdebug to cortex-debug
+  - added cmakelists.txt
+  - added syscalls.c for mock implementation of sys functions
 
-Initial:
-    -DFP 3.1.0 
-    -CMSIS 5.2
-    -VSCode file for Intellisense, build settings and debug settings.
-    -makefile for compiling project
+- 2018:
+  - DFP 3.1.0 
+  - CMSIS 5.2
+  - VSCode file for Intellisense, build settings and debug settings.
+  - makefile for compiling project
 
